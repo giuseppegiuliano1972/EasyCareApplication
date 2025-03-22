@@ -21,10 +21,10 @@ logger = logging.getLogger(__name__)
 
 
 # Configurazione Twilio
-TWILIO_ACCOUNT_SID = 'AC63e02c6a24315de7857b72cd0a33c5da'
-TWILIO_AUTH_TOKEN = '2c25ac28cc27785f68bc5d776ffb7533'
+TWILIO_ACCOUNT_SID = '@@@@@@@@'
+TWILIO_AUTH_TOKEN = ''@@@@@@@@''
 TWILIO_WHATSAPP_NUMBER = 'whatsapp:+14155238886'
-EMERGENCY_CONTACT = 'whatsapp:+393496676859'
+EMERGENCY_CONTACT = 'whatsapp:+3911111111111'
 
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
