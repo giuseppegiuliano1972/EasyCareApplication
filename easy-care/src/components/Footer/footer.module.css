@@ -1,0 +1,24 @@
+/* Stile per il footer */
+.Box {
+    position: fixed; /* Fissa il footer in basso */
+    bottom: 0;
+    width: 100%; /* Larghezza completa */
+    background: grey; /* Colore di sfondo grigio */
+    color: white; /* Colore del testo per contrasto */
+    padding: 1em; /* Spazio interno */
+    z-index: 1000; 
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Ombra per evidenziare il footer */
+    border: 1px solid;
+    
+}
+.footer {
+background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    z-index: 10; /* Assicura che il footer rimanga visibile */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+

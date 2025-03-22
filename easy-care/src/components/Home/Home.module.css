@@ -1,0 +1,20 @@
+ .card-group {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start; /* Allinea le cards in alto */
+      gap: 20px; /* Spaziatura tra le cards */
+  }
+
+#content .card-group-container {
+    max-width: 200px; /* Imposta una larghezza massima */
+    margin: 0 auto; /* Centra il contenitore */
+    padding: 0 20px; /* Aggiungi un po' di padding laterale */
+}
+
+.card {
+  flex: 1; /* Le cards occuperanno uno spazio uniforme */
+  max-width: 300px; /* Imposta una larghezza massima per ogni card */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}

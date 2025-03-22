@@ -1,0 +1,5 @@
+.scalable-div {
+    width: 50%; /* Ridimensiona il contenitore come percentuale del genitore */
+    height: auto; /* Mantiene proporzioni corrette */
+    background-color: lightgreen;
+}

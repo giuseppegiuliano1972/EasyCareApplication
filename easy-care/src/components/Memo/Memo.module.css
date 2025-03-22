@@ -1,0 +1,99 @@
+.container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 50px; /* Altezza della navbar */
+  margin-bottom: 50px; /* Altezza del footer */
+  overflow-y: auto; /* Permette lo scrolling */
+  height: calc(100vh - 100px); /* Altezza totale della pagina meno navbar e footer */
+  margin-left: auto; margin-right: auto; 
+}
+
+/* Contenitore principale */
+.maincontent {
+  margin-top: 50px; /* Altezza della navbar */
+  margin-bottom: 50px; /* Altezza del footer */
+  padding: 20px;
+  overflow-y: auto; /* Permette lo scrolling */
+  height: calc(100vh - 100px); /* Altezza totale della pagina meno navbar e footer */
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.submit {
+  background-color: #0055ff;
+  color: white;
+  margin-right: 10px;
+}
+
+button.cancel {
+  background-color: #d3d3d3;
+  color: #555;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shadow {
+
+  border-radius:4%; /*supported by all latest Browser*/
+  -moz-border-radius:4%; /*For older Browser*/
+  -webkit-border-radius:4%;/*For older Browser*/
+  background-color:rgb(231, 239, 244);
+  width:360px;
+  height:150px;
+  margin-left: auto; margin-right: auto; 
+  margin-bottom: 55px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}

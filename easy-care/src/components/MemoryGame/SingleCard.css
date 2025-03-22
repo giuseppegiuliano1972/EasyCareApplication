@@ -1,0 +1,83 @@
+.card {
+    position: relative;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+.card .front {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+
+.flipped .front {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.card .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+
+.flipped .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
+
+.card-grid {
+    margin-top: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;   /* 4 different columns in grid */
+    grid-gap: 20px;
+    width: 50em;
+    margin-left: auto; margin-right: auto;
+  }
+
+  .shadow {
+
+    border-radius:4%; /*supported by all latest Browser*/
+    -moz-border-radius:4%; /*For older Browser*/
+    -webkit-border-radius:4%;/*For older Browser*/
+    background-color:rgb(231, 239, 244);
+    width:360px;
+    height:150px;
+    margin-left: auto; margin-right: auto; 
+    margin-bottom: 55px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+  }
+  
+  button.submit {
+    background-color: #0055ff;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .button-container {
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra il pulsante orizzontalmente */
+    align-items: center; /* Centra il pulsante verticalmente */
+    height: 100%; /* Assicurati che il contenitore abbia altezza */
+    text-align: center; /* Utile per fallback in caso di inline-block */
+    padding: 30px;
+}
